@@ -15,7 +15,7 @@ steps:
     verbose: false
 
 - script: './node_modukes/.bin/node-sass Tailspin.SpaceGame.Web/wwwroot --output Tailspin.SapceGame.Web/wwwroot'
-  displayname: 'Compile Sass assets'
+  displayName: 'Compile Sass assets'
 
 - task: gulp@1
   displayName: 'Run gulp tasks'
